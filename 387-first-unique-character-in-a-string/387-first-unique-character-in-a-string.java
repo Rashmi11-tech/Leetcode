@@ -10,7 +10,6 @@ class Solution {
                 m.put(s.charAt(i), 1);
             }
         }
-        //System.out.print(m);
         for(int i=0;i<s.length();i++){
             if(m.containsKey(s.charAt(i)) && m.get(s.charAt(i)) == 1){
                 return i;
