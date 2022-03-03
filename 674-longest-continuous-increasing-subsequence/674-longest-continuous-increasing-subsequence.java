@@ -7,7 +7,7 @@ class Solution {
         int k=0;
         while(i<nums.length && j<nums.length){
             if(nums[k] < nums[j]){
-                System.out.println(j);
+                //System.out.println(j);
                 ans= Math.max(ans, (j-i)+1);
             }else{
                 i=j;
